@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<body>
+    <h2><center> Creación de CV</center></h2>
+    <form action="../index.html" method="get">
+       <fieldset><legend>Presentación</legend>
+        Ingrese su nombre completo:
+        <input type="text" name="nombre" size="50">
+        <br><br> Inserte una imagen de presentación:
+        <input type="file" name="imagen" accept=".jpg, .jpeg">
+       </fieldset>
+       <br>
+       <fieldset><legend>Experiencia</legend>
+        Ingrese su experiencia laboral:
+        <br><textarea name="cuadrito" cols="10" rows="2"></textarea>      
+        </fieldset>
+       <br>
+       <fieldset><legend>Educación</legend>
+        Colegio:
+        <input type="text" name="colegio" size="20"> 
+        <br>Fecha de inicio: 
+        <input type="date" name="inicio">   
+        Fecha de finalización:
+        <input type="date" name="fin">
+        <br><br>Universidad:
+        <input type="text" name="uni" size="20"> 
+        <br>Fecha de inicio: 
+        <input type="date" name="iniciou">   
+        Fecha de finalización:
+        <input type="date" name="finu">
+        </fieldset>
+        <br>
+        <fieldset><legend>Conocimientos</legend>
+        Ingrese sus conocimientos:
+        <br><textarea name="cuadro" cols="40" rows="2" placeholder="Ejem: -Web (lenguaje HTML, Javascript…)"></textarea>       
+        </fieldset>
+        <br>
+        <fieldset><legend>Datos Generales</legend>
+        Cédula:
+        <input type="text" name="cedula" id="">
+        <br>Nacionalidad:
+        <input type="text" name="nacionld" id="">
+        <br>Fecha de Nacimiento:
+        <input type="date" name="cumpleaños" id="">
+        <br>Edad:
+        <input type="number" name="edad" id="">
+        <br>Email:
+        <input type="email" name="email" id="">
+        <br>Teléfono:
+        <input type="tel" name="telefono" id="">
+        </fieldset>
+        <br>
+        <fieldset><legend>Aptitudes</legend>
+        Ingrese sus habilidades o aptitudes:
+        <br><textarea name="cuadro" cols="25" rows="2" placeholder="Ejem: -Trabajo en equipo"></textarea>    
+        </fieldset>
+        <br><center><input type="submit" value="Enviar">&nbsp;&nbsp;
+        &nbsp;&nbsp;<input type="reset" value="Restablecer"></center>
+    </form>
+</body>
+</html>
